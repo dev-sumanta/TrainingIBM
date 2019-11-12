@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import IteratingWithUncontrolled from "./code/IteratingWithUncontrolled";
+import WorkingWithAxios from "./sessionThree/WorkingWithAxios";
 
-ReactDOM.render(<IteratingWithUncontrolled />, 
+ReactDOM.render(<><WorkingWithAxios /></>, 
     document.getElementById("root"))

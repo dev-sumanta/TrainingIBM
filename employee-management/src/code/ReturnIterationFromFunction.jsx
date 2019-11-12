@@ -18,17 +18,17 @@ export default class ReturnIterationFromFunction extends React.Component {
     getEmpList() {
         return this.state.empDetails.filter((emp) => {
             return emp.age >= 13
-        }).map((data) => {
-            return <div>User Name: {data.name}</div>
+        }).map((data, index) => {
+            return <div class={index + "_" + data.name}>User Name: {data.name}</div>
         })
     }
 
     render() {
         return (
-            <div>
+            <>
                 <h2>Employee List:</h2>
                 {this.getEmpList()}
-            </div>
+            </>
         )
     }
 }
