@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import TimerComponent from "./components/timerComponent";
+import IteratingWithUncontrolled from "./code/IteratingWithUncontrolled";
 
-ReactDOM.render(<TimerComponent name ="Anshul"></TimerComponent>, 
+ReactDOM.render(<IteratingWithUncontrolled />, 
     document.getElementById("root"))
