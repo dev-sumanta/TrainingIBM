@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import TimerComponent from "./components/timerComponent";
+import WorkingWithAxios from "./sessionThree/WorkingWithAxios";
 
-ReactDOM.render(<TimerComponent name ="Anshul"></TimerComponent>, 
+ReactDOM.render(<><WorkingWithAxios /></>, 
     document.getElementById("root"))
