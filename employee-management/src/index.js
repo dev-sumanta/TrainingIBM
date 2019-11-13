@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import WorkingWithAxios from "./sessionThree/WorkingWithAxios";
+import WorkingWithContext from "./sessionFour/WorkingWithContext";
 
-ReactDOM.render(<><WorkingWithAxios /></>, 
+ReactDOM.render(<><WorkingWithContext /></>, 
     document.getElementById("root"))

@@ -3,7 +3,6 @@ import React from 'react';
 export default class WorkingWithRefs extends React.Component {
 
     updateUncontrolled() {
-        debugger;
         this.refs.uncontrolled.value = "Mayank"
     }
 
